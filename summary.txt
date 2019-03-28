@@ -14,4 +14,7 @@ git status --> checkear los cambis que han habido en el repo
 Luego de un add, commit, push y hacemos un cambio en un archivo, todos estos cambios estarán en nuestro local y no en el stage del git. Entonces debemos repetir los 3 pasos desde el git add para subir esos cambis al git y luego recien pushearlos a la nube.
 
 // En caso existan 2 personas cambiando el mismo repo, se hace un 4to paso
+
 4. git pull --> aqui pueden haber 2 opciones de merge, FF o conflicto
+
+// Si hay conflicto, debemos decidir con cual codigo quedarnos, o en todo caso guardar ambos. 
